@@ -90,6 +90,7 @@ onMounted(load)
         style="width: 100%"
         empty-text="Sin datos"
       >
+        <el-table-column prop="passId" label="Pass ID" width="100" />
         <el-table-column prop="createdOn" label="Creado" width="170" />
         <el-table-column prop="passTemplate" label="Template" min-width="220" />
         <el-table-column label="Nombre" min-width="200">

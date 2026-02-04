@@ -91,7 +91,7 @@ onMounted(load)
         empty-text="Sin datos"
       >
         <el-table-column prop="passId" label="Pass ID" width="170" />
-        <el-table-column prop="uniqueIdentifier" label="Pass ID" width="170" />
+        <el-table-column prop="uniqueIdentifier" label="UniqueId" width="170" />
         <el-table-column prop="passTemplate" label="Template" min-width="110" />
         <el-table-column prop="caseta" label="Caseta" min-width="110" />
         <el-table-column prop="createdOn" label="Creado" width="110" />

@@ -90,17 +90,19 @@ onMounted(load)
         style="width: 100%"
         empty-text="Sin datos"
       >
-        <el-table-column prop="passId" label="Pass ID" width="100" />
-        <el-table-column prop="createdOn" label="Creado" width="170" />
-        <el-table-column prop="passTemplate" label="Template" min-width="220" />
-        <el-table-column label="Nombre" min-width="200">
+        <el-table-column prop="passId" label="Pass ID" width="170" />
+        <el-table-column prop="uniqueIdentifier" label="Pass ID" width="170" />
+        <el-table-column prop="passTemplate" label="Template" min-width="110" />
+        <el-table-column prop="caseta" label="Caseta" min-width="110" />
+        <el-table-column prop="createdOn" label="Creado" width="110" />
+        <el-table-column label="Nombre" min-width="160">
           <template #default="{ row }">
             {{ row.firstName }} {{ row.lastName }}
           </template>
         </el-table-column>
-        <el-table-column prop="email" label="Email" min-width="240" />
-        <el-table-column prop="phone" label="Teléfono" width="140" />
-        <el-table-column prop="gender" label="Género" width="120" />
+        <el-table-column prop="email" label="Email" min-width="140" />
+        <el-table-column prop="phone" label="Teléfono" width="120" />
+        <el-table-column prop="gender" label="Género" width="75" />
       </el-table>
     </el-card>
   </section>

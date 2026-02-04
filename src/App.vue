@@ -18,7 +18,7 @@ function onMenuSelect(key: string) {
             class="h-9 w-9 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-500 shadow-[0_10px_35px_rgba(59,130,246,0.25)]"
           />
           <div class="leading-tight">
-            <div class="text-sm font-semibold text-white">Wallet Front</div>
+            <div class="text-sm font-semibold text-white">Alpha Wallet</div>
             <div class="text-xs text-white/55">Admin</div>
           </div>
         </div>
